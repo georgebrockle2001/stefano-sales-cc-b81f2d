@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="robots" content="noindex, nofollow, noarchive, noimageindex" />
-<title>Mr Brand Owner | Sales Command Center</title>
+<title>Stefano | Sales Command Center</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
@@ -183,7 +183,7 @@
       <div class="brand">
         <div class="logo">B</div>
         <div>
-          <h1>Mr Brand Owner Sales Command Center</h1>
+          <h1>Stefano Sales Command Center</h1>
           <div class="sub">Live revenue, closer performance and setter pipeline intelligence</div>
         </div>
       </div>
@@ -345,7 +345,7 @@
   </div>
 
   <footer>
-    <div>Brock Media Group &middot; Sales Operations &middot; Built for Mr Brand Owner</div>
+    <div>Brock Media Group &middot; Sales Operations &middot; Built for Stefano</div>
     <div>Cash figures from Closed Deal Form. Activity metrics from Setter EOD Form. Auto-refreshing live from Google Sheets.</div>
   </footer>
 
@@ -354,8 +354,8 @@
 <script>
 /* ================= CONFIG ================= */
 const SHEETS = {
-  closed: "1wu7_XU9p2AZPKVJmvuuXVUs1VoWkf1Y8a0u78LiovVk",
-  setter: "1n0RbDURlTfUOsrKfSTsA_ev_dueDQMNqoTc3ti6Fc8g",
+  closed: "1yS60tJvqLcpu9UnCyVLK94ou-jesUuCTgsWbF9egAWs",
+  setter: "1UeSIFlAJ3yG2itHIwQvHzR8LcrGSzzszzvXTgp8YB0M",
 };
 const REFRESH_MS = 120000; // auto refresh every 2 minutes
 const gvizUrl = id => `https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=out:csv&t=${Date.now()}`;
@@ -747,7 +747,7 @@ function renderModel(deals, sRows, range){
 /* Setters earn `rate` on deals they set, but a higher `selfCloseRate` on deals
    they also closed themselves (closer === "No Closer"). Closers earn `rate`. */
 const COMMISSION=[
-  {name:"Hamza",  role:"setter", rate:5, selfCloseRate:7.5},
+  {name:"Thomas",  role:"setter", rate:5, selfCloseRate:7.5},
   {name:"Lawand", role:"closer", rate:10},
 ];
 let commCash={};
